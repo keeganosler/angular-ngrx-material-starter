@@ -25,4 +25,4 @@ const adjustedContent = content.replace(PATTERN, replacement);
 
 fs.writeFileSync(TARGET, adjustedContent);
 
-console.log(`${contributors.length} contributors added to HTML`);
+console.log(`${contributors.length} contributors added to HTML `);
